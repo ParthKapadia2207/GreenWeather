@@ -1,0 +1,14 @@
+.container{
+    margin: 0;
+    background-color: #222;
+    padding: 2em;
+    border-radius: 30px;
+   
+    color: aqua;
+
+}
+body{   
+    justify-content: center;
+    align-items: center; 
+    
+}
