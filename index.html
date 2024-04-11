@@ -4,79 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css"> <!--CSS-->
-    <title>Cloudy Weather</title>
+    <title>Green Weather</title>
 </head>
+<header>
+    <h2>Green Weather</h2>
 
+</header>
 <body>
-   
-    <header> <h1>Cloudy Weather</h1></header>
-    <div class="container">
+   <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar">
+            <button type="submit">Search
+            </button>
+        </div>
+        <div class="weather">
+            <h2 class="city">Weather in Denver</h2>
+            <div class="temprature">51 F</div>
+            <img src="" alt="" class="icon">
+            <div class="description">Party Cloud</div>
+            <div class="humidity">Humidity : 60%</div>
+            <div class="wind">Wind Speed: 6 mph</div>
 
-        <!--Weather Form-->
-        <form class="weatherForm">
-            <input type="text" class="cityInput">
-            <button type="submit">Search</button>
-            
-        </form>
-
-        
-        <!--Current Weather-->
-        <div class="currentWeaather">
-            <h3 class="cityDisplay">Denver</h3>
-            <p class="tempDisplay"> 90 F</p>
-            <p class="humidDisplay">Humidity: 50%</p>
-            <p class="skiesDisplay">sunny</p>
-            <p class="errorBox"> Errror</p>
         </div>
-
-
-        <!--5 Day Forecast-->
-        <!--
-
-        <div class="forecastCard">
-            <h3 class="cityDisplay">City</h3>
-            <p class="tempDisplay"> 90 F</p>
-            <p class="humidDisplay">Humidity: 50%</p>
-            <p class="skiesDisplay">sunny</p>
-            <p class="errorBox"> Error</p>
-        </div>
-        <div class="forecastCard">
-            <h3 class="cityDisplay">City</h3>
-            <p class="tempDisplay"> 90 F</p>
-            <p class="humidDisplay">Humidity: 50%</p>
-            <p class="skiesDisplay">sunny</p>
-            <p class="errorBox"> Error</p>
-        </div>
-        <div class="forecastCard">
-            <h3 class="cityDisplay">City</h3>
-            <p class="tempDisplay"> 90 F</p>
-            <p class="humidDisplay">Humidity: 50%</p>
-            <p class="skiesDisplay">sunny</p>
-            <p class="errorBox"> Error</p>
-        </div>
-        <div class="forecastCard">
-            <h3 class="cityDisplay">City</h3>
-            <p class="tempDisplay"> 90 F</p>
-            <p class="humidDisplay">Humidity: 50%</p>
-            <p class="skiesDisplay">sunny</p>
-            <p class="errorBox"> Error</p>
-        </div>
-        <div class="forecastCard">
-            <h3 class="cityDisplay">City</h3>
-            <p class="tempDisplay"> 90 F</p>
-            <p class="humidDisplay">Humidity: 50%</p>
-            <p class="skiesDisplay">sunny</p>
-            <p class="errorBox"> Error</p>
-        </div>
--->
-    </div>
+   </div>
     
     
     
     
     
     
+   <script href="assets/script.js"></script> <!--Javascript-->
     
-    <script href="assets/script.js"></script> <!--Javascript-->
 </body>
 </html>

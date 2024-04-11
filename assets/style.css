@@ -1,14 +1,22 @@
-.container{
-    margin: 0;
-    background-color: #222;
-    padding: 2em;
-    border-radius: 30px;
+header{
+    display: inline-flex;
+}   
    
-    color: aqua;
 
-}
 body{   
+    display: flex;
     justify-content: center;
     align-items: center; 
-    
+    height: 100vh;
+    margin: 0;
+    background-color: #222;
+    color: aqua;
 }
+ .card{
+    background-color: #eaeaea;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    margin: 1em;   
+    max-width: 420px;
+ }
